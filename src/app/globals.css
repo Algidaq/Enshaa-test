@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+}
+html {
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.test-animation {
+  animation-name: bounce;
+  animation-duration: 500ms;
+}
+
+@-webkit-keyframes bounce {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.75);
+  }
+}
+
+.linear-gradient {
+  background: url("/background.svg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* @media screen and (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+} */
+
+.heading_1 {
+  /*24px*/
+  font-size: 1.5em;
+  line-height: 110%;
+  letter-spacing: -0.45px;
+  font-weight: 600;
+}
+
+.heading_2 {
+  /*20px*/
+
+  font-size: 1.25em;
+  line-height: 110%;
+  letter-spacing: -0.45px;
+  font-weight: 600;
+}
+
+.heading_3 {
+  /*18px*/
+  font-size: 1.125em;
+  line-height: 110%;
+  letter-spacing: -0.45px;
+  font-weight: 600;
+}
+
+.heading_4 {
+  font-size: 1rem;
+  line-height: 110%;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 120%;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+
+.body_large {
+  font-size: 1rem;
+  line-height: 120%;
+  letter-spacing: -0.1px;
+  font-weight: 400;
+}
+
+.body_medium {
+  font-size: 1rem;
+  line-height: 130%;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+}
+
+.body_small {
+  font-size: 0.875em;
+  line-height: 135%;
+  letter-spacing: -0.1px;
+  font-weight: 600;
+}
+
+.caption {
+  font-size: 0.75em;
+  line-height: 120%;
+  letter-spacing: 1.1px;
+}
+
+@layer components {
+  .heading-3 {
+    @apply text-[1rem]  font-medium font-['Alexandria'] leading-[110%];
+    line-height: -0.45px;
+  }
+
+  .almarai-light {
+    font-family: "Almarai", "Alexandria", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .almarai-regular {
+    font-family: "Almarai", "Alexandria", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .almarai-bold {
+    font-family: "Almarai", "Alexandria", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .almarai-extrabold {
+    font-family: "Almarai", "Alexandria", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

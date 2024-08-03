@@ -1,0 +1,31 @@
+.button {
+  padding: 8px 16px;
+  height: 48px;
+  border-radius: 8px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-width: 15rem; */
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.bounce_click {
+  animation-name: bounce;
+  animation-duration: 150ms;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.85);
+  }
+}

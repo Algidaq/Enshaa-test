@@ -1,0 +1,77 @@
+#profile-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 559px;
+    width: 423px; 
+  }
+  #phone-modal,#otp-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 529px;
+    width: 423px; /* Adjust width as needed */
+  }
+  #languag-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 429px;
+    width: 453px; /* Adjust width as needed */
+  }
+
+  #done-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 329px;
+    width:353px; /* Adjust width as needed */
+  }
+  #cancel-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    height: 281px;
+    width: 332px; /* Adjust width as needed */
+  }
+  #succes-procese{
+    color: #2AC769;
+  }
+  #done{
+    color: #532494;
+  }

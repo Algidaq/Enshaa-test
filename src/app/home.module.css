@@ -1,0 +1,17 @@
+.heroSection {
+  height: 100%;
+  background-image: url("../../public/assets/hero-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36, 36, 36, 0.22);
+  z-index: 1;
+}

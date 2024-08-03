@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "svgr.d.ts",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/create-request-pricing/_components/doneModal.jsx",
+    "src/app/create-request-pricing/_components/createRequestForm.jsx",
+    "src/app/create-request-pricing/_components/createRequestForm.jsx",
+    "src/app/show-qutations/component/qutationCard.jsx",
+    "src/components/Icon/svgs/qutationSvgs.jsx",
+    "src/app/create-request-pricing/_components/uploadFile.jsx"
+, "src/app/projects/create/_components/modalDatepiker.jsx", "src/app/projects/control-board/[id]/boards.tsx", "src/app/projects/control-board/[id]/boards.tsx", "src/app/projects/control-board/stages-and-activities/_components/createActiviteModal.jsx", "src/components/DataTable/index.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

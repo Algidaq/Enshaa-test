@@ -1,0 +1,38 @@
+import { stage } from "./stage";
+
+export interface Project {
+    expected_end_date: string;
+    current_stage: string,
+    progress: number,
+    id: number,
+    project_no: string,
+    project_name: string,
+    type: string,
+    floors: number,
+    category: string,
+    sub_category: string,
+    health: string,
+    status: string,
+    land_area: string,
+    building_area: number,
+    start_date: string,
+    duration: number,
+    project_owner: string,
+    project_manager: string,
+    project_consultant: string,
+    stake_holders: string,
+    partners: string,
+    scope: string,
+    work_procedures: string,
+    goals: string,
+    consultant_reasons: string,
+    amount_estimated: bigint,
+    amount_remaining: bigint,
+    amount_received: bigint,
+    amount_expensed: bigint,
+    createdAt: string,
+    updatedAt: string,
+    accountId: number,
+    stage: stage[],
+
+}

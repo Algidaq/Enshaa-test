@@ -1,0 +1,20 @@
+#done-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    height: 431px;
+    width: 432px; /* Adjust width as needed */
+  }
+  #succes-procese{
+    color: #2AC769;
+  }
+  #done{
+    color: #03C7F3;
+  }
